@@ -1,9 +1,7 @@
 services:
-  aamnazweb:
-    image: aamnaz
-    container_name: aamnaz
-    build:
-      context: .
-      dockerfile: Dockerfile
+  web:
+    image: nginx:alpine
     ports:
       -  8082:80
+    volumes:
+      -  .:/usr/share/nginx/html/
