@@ -1,3 +1,0 @@
-FROM alpine
-
-MAINTAINER ISTIYAK istiyaq.mi9@gmail.com
