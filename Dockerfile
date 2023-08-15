@@ -1,4 +1,4 @@
-FROM alpine
+FROM nginx:alpine
 
 MAINTAINER ISTIYAK istiyaq.mi9@gmail.com
 
