@@ -30,6 +30,6 @@ spec:
     app: aamnaz-site
   ports:
     - protocol: TCP
-      port: 8191
+      port: 8194
       targetPort: 80
   type: LoadBalancer
